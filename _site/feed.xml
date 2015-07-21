@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description>Stylish Jekyll Theme</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>The Pentaquark</title>
+				<description>&lt;h3 id=&quot;lhc-scientists-discover-new-kind-of-particle-the-pentaquark&quot;&gt;LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ico/pentaquark_cern.png&quot; alt=&quot;pentaquark&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Scientists at the &lt;a href=&quot;http://home.web.cern.ch/topics/large-hadron-collider&quot;&gt;Large Hadron Collider&lt;/a&gt; in Switzerland have discovered a new kind of particle called the pentaquark, they announced Tuesday.&lt;/p&gt;
+
+&lt;p&gt;Physicists had theorised the existence of the pentaquark since the 1960s, but had never been able to prove it until its detection by the LHCb experiment at the LHC, the world’s most powerful particle smasher.&lt;/p&gt;
+
+&lt;p&gt;The discovery of the pentaquark comes after the LHC was used in 2012 to prove the existence of another particle, the &lt;em&gt;Higgs Boson&lt;/em&gt;, which confers mass.&lt;/p&gt;
+
+&lt;p&gt;LHCb spokesman Guy Wilkinson said the pentaquark represented a way to combine quarks the sub-atomic particles that make up protons and neutrons “in a pattern that has never been observed before in over 50 years of experimental searches.”&lt;/p&gt;
+
+&lt;p&gt;He added: “Studying its properties may allow us to understand better how ordinary matter, the protons and neutrons from which we’re all made, is constituted.”&lt;/p&gt;
+
+&lt;p&gt;The LHC cranked back up again in June after a two-year upgrade, with scientists hailing a “new era” in their quest to unravel more mysteries of the Universe.&lt;/p&gt;
+
+&lt;p&gt;The new tests at the European Organisation for Nuclear Research (Cern) have twice the energy levels they had during the last three-year experiment phase, when the existence of the &lt;em&gt;Higgs Boson&lt;/em&gt; was confirmed.&lt;/p&gt;
+
+&lt;p&gt;Four laboratories are located along the LHC’s ring-shaped tunnel around a hundred metres (109 yards) underground, where scientists analyse collisions between particles moving at close to the speed of light.&lt;/p&gt;
+
+&lt;p&gt;The LHCb, one of the four experiments, is focused on understanding the differences between matter and anti-matter and analysing certain quarks.&lt;/p&gt;
+
+&lt;p&gt;“Our understanding of the structure of matter was revolutionized in 1964 when American physicist, Murray Gell-Mann, proposed that a category of particles known as baryons, which includes protons and neutrons, are comprised of three fractionally charged objects called quarks,” Cern said in a statement.&lt;/p&gt;
+
+&lt;p&gt;Gell-Mann, who won the Nobel Physics Prize in 1969, further proposed another category of particles, mesons, formed of “quark-antiquark” pairs.&lt;/p&gt;
+
+&lt;p&gt;His model allowed for the existence of other quark combinations such as pentaquarks, which are composed of four quarks and an antiquark. But no conclusive evidence for pentaquarks had been seen until now.&lt;/p&gt;
+
+&lt;p&gt;The LHCb experiment changed the game by allowing scientists to “look for pentaquarks from many perspectives”, Cern said.&lt;/p&gt;
+
+&lt;p&gt;The findings have been submitted to the journal Physical Review Letters.&lt;/p&gt;
+
+&lt;p&gt;The next stage of the research will focus on studying how the quarks are bound together within the pentaquarks, the nuclear laboratory added.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 15 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/science/technical/2015/07/15/the_pentaquark.html</link>
+				<guid isPermaLink="true">/science/technical/2015/07/15/the_pentaquark.html</guid>
+			</item>
+		
+			<item>
+				<title>Want this blog's source code?</title>
+				<description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is minimalist, stylish theme for jekyll.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is brought to you by &lt;strong&gt;&lt;a href=&quot;http://ismaildemirbilek.com&quot;&gt;dbtek&lt;/a&gt;&lt;/strong&gt;. Open sourced under &lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download the source code or fork it on &lt;strong&gt;&lt;a href=&quot;https://github.com/dbtek/dbyll&quot;&gt;Github&lt;/a&gt;&lt;/strong&gt; .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Firstly, you must install &lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll&lt;/a&gt; and all the dependencies .&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How to &lt;a href=&quot;http://jekyllrb.com/docs/installation/&quot;&gt;install&lt;/a&gt; jekyll ?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In your &lt;strong&gt;_config.yml&lt;/strong&gt; file change these settings&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;your title&lt;/span&gt;  
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;yourname&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;youremail&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;pinterest&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;About you!&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;md5ofemail&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you want change the profile picture, change the path from file &lt;br /&gt;
+&lt;strong&gt;sidebar.html&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;header class=&amp;quot;sidebar-header&amp;quot; role=&amp;quot;banner&amp;quot;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;img src=&amp;quot;/assets/ico/qwerty.png&amp;quot; class=&amp;quot;img-circle&amp;quot; /&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;h3 class=&amp;quot;title&amp;quot;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;/h3&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Replace my name with yours everywhere you find.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don’t change anything you don’t understand.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Sun, 12 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/general/technical/2015/07/12/Want%20this%20blog's%20source%20code%3F.html</link>
+				<guid isPermaLink="true">/general/technical/2015/07/12/Want%20this%20blog's%20source%20code%3F.html</guid>
+			</item>
+		
+			<item>
+				<title>Hello World!</title>
+				<description>&lt;h4 id=&quot;this-is-a-test-post&quot;&gt;This is a Test post&lt;/h4&gt;
+
+&lt;p&gt;How to write &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; file?&lt;/p&gt;
+</description>
+				<pubDate>Sat, 11 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/general/setup/2015/07/11/hello-world.html</link>
+				<guid isPermaLink="true">/general/setup/2015/07/11/hello-world.html</guid>
+			</item>
+		
+			<item>
+				<title>Configuration</title>
+				<description>&lt;p&gt;In your config file change these settings&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;your title&lt;/span&gt;  
+&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;   
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;yourname&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;youremail&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;twitter&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;pinterest&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;resume&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;asd123&lt;/span&gt;  
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;bio&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;About you!&lt;/span&gt;   
+  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;email_md5&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;md5ofemail&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+				<pubDate>Wed, 08 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/general/setup/2015/07/08/configuration.html</link>
+				<guid isPermaLink="true">/general/setup/2015/07/08/configuration.html</guid>
+			</item>
+		
+			<item>
+				<title>Welcome HTTP/2</title>
+				<description>&lt;h4 id=&quot;what-is-http&quot;&gt;What is HTTP?&lt;/h4&gt;
+&lt;p&gt;Short for &lt;em&gt;HyperText Transfer Protocol&lt;/em&gt;, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.&lt;/p&gt;
+
+&lt;p&gt;The other main standard that controls how the World Wide Web works is HTML, which covers how Web pages are formatted and displayed.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-http1&quot;&gt;What is HTTP/1?&lt;/h4&gt;
+
+&lt;p&gt;The &lt;em&gt;Hypertext Transfer Protocol (HTTP)&lt;/em&gt; is a wildly successful protocol. However, the way HTTP/1.1 uses the underlying transport &lt;a href=&quot;https://tools.ietf.org/html/rfc7230&quot;&gt;RFC7230&lt;/a&gt; has several characteristics that have a negative overall effect on application performance today.&lt;/p&gt;
+
+&lt;p&gt;In particular, HTTP/1.0 allowed only one request to be outstanding at a time on a given TCP connection. HTTP/1.1 added request pipelining, but this only partially addressed request concurrency and still suffers from head-of-line blocking. Therefore, HTTP/1.0 and HTTP/1.1 clients that need to make many requests use multiple connections to a server in order to achieve concurrency and thereby reduce latency.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, HTTP header fields are often repetitive and verbose, causing unnecessary network traffic as well as causing the initial TCP  congestion window to quickly fill. This can result in excessive latency when multiple requests are made on a new TCP connection.&lt;/p&gt;
+
+&lt;p&gt;HTTP/2 addresses these issues by defining an optimized mapping of HTTP’s semantics to an underlying connection. Specifically, it allows interleaving of request and response messages on the same connection and uses an efficient coding for HTTP header fields. It also allows prioritization of requests, letting more important requests complete more quickly, further improving performance.&lt;/p&gt;
+
+&lt;p&gt;The resulting protocol is more friendly to the network because fewer TCP connections can be used in comparison to HTTP/1.x. This means less competition with other flows and longer-lived connections, which in turn lead to better utilization of available network capacity.&lt;/p&gt;
+
+&lt;p&gt;Finally, HTTP/2 also enables more efficient processing of messages through use of binary message framing.&lt;/p&gt;
+
+&lt;h4 id=&quot;overview-of-http2-&quot;&gt;Overview of HTTP/2 :&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc7540&quot;&gt;HTTP/2&lt;/a&gt; provides an optimized transport for HTTP semantics. HTTP/2 supports all of the core features of HTTP/1.1 but aims to be more efficient in several ways.&lt;/p&gt;
+
+&lt;p&gt;The basic protocol unit in HTTP/2 is a frame. Each frame type serves a different purpose. For example, &lt;em&gt;HEADERS&lt;/em&gt; and &lt;em&gt;DATA&lt;/em&gt; frames form the basis of HTTP requests and responses; other frame types like &lt;em&gt;SETTINGS&lt;/em&gt;, &lt;em&gt;WINDOW_UPDATE&lt;/em&gt;, and &lt;em&gt;PUSH_PROMISE&lt;/em&gt; are used in support of other HTTP/2 features.&lt;/p&gt;
+
+&lt;p&gt;Multiplexing of requests is achieved by having each HTTP request/response exchange associated with its own stream. Streams are largely independent of each other, so a blocked or stalled request or response does not prevent progress on other streams.&lt;/p&gt;
+
+&lt;p&gt;Flow control and prioritization ensure that it is possible to efficiently use multiplexed streams. Flow control helps to ensure that only data that can be used by a receiver is transmitted. Prioritization ensures that limited resources can be directed to the most important streams first.&lt;/p&gt;
+
+&lt;p&gt;HTTP/2 adds a new interaction mode whereby a server can push responses to a client. Server push allows a server to speculatively send data to a client that the server anticipates the client will need, trading off some network usage against a potential latency gain. The server does this by synthesizing a request, which it sends as a &lt;em&gt;PUSH_PROMISE&lt;/em&gt; frame. The server is then able to send a response to the synthetic request on a separate stream.&lt;/p&gt;
+
+&lt;p&gt;Because HTTP header fields used in a connection can contain large amounts of redundant data, frames that contain them are compressed. This has especially advantageous impact upon request sizes in the common case, allowing many requests to be compressed into one packet.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ico/http_2.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can read more about HTTP/2 &lt;a href=&quot;https://en.wikipedia.org/wiki/HTTP/2&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+				<pubDate>Thu, 19 Feb 2015 00:00:00 +0530</pubDate>
+				<link>/technical/2015/02/19/Welcome_HTTP_2.html</link>
+				<guid isPermaLink="true">/technical/2015/02/19/Welcome_HTTP_2.html</guid>
+			</item>
+		
+	</channel>
+</rss>
