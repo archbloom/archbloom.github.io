@@ -3,7 +3,7 @@ layout: post
 title: Want this blog's source code?
 categories: [general, technical]
 tags: [demo, setup]
-description: How to change blog's sorce code?
+description: How to change blog's source code?
 ---
 
 - **dbyll** is minimalist, stylish theme for jekyll.   

@@ -7,6 +7,17 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>2nd and 3rd Meet</title>
+				<description>&lt;p&gt;This was the second week. Week was Heavy, lot many things happened in this week. &lt;br /&gt;
+Our first meet of the week was with Ninad. He just brushed up our electronics basics. He told us about the communication protocols (&lt;em&gt;SPI -Serial Peripheral Interface&lt;/em&gt; and &lt;em&gt;I2C-Inter-Integrated Circuit&lt;/em&gt;) which are used in serial and parallel devices. &lt;br /&gt;
+Second meet was with Anuj. He told us about GoLang and its basics, from scratch to running a simple echo server locally. He told us about the pros and cons of Go and other languages(sort of comparison). He also gave us a assignment - Implement data.sparkfun.com without a database i.e. store 4 public/private keys and check if they are valid&lt;/p&gt;
+</description>
+				<pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/general/meet/2015/07/17/Keep%20it%20GO-ing.html</link>
+				<guid isPermaLink="true">/general/meet/2015/07/17/Keep%20it%20GO-ing.html</guid>
+			</item>
+		
+			<item>
 				<title>The Pentaquark</title>
 				<description>&lt;h3 id=&quot;lhc-scientists-discover-new-kind-of-particle-the-pentaquark&quot;&gt;LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/h3&gt;
 
@@ -185,6 +196,15 @@
 				<pubDate>Thu, 19 Feb 2015 00:00:00 +0530</pubDate>
 				<link>/technical/2015/02/19/Welcome_HTTP_2.html</link>
 				<guid isPermaLink="true">/technical/2015/02/19/Welcome_HTTP_2.html</guid>
+			</item>
+		
+			<item>
+				<title>2nd Meet</title>
+				<description>
+</description>
+				<pubDate>Tue, 17 Feb 2015 00:00:00 +0530</pubDate>
+				<link>/general/technical/2015/02/17/Keep%20it%20GO-ing.html</link>
+				<guid isPermaLink="true">/general/technical/2015/02/17/Keep%20it%20GO-ing.html</guid>
 			</item>
 		
 	</channel>
