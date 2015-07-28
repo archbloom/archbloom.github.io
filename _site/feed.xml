@@ -13,8 +13,8 @@ Our first meet of the week was with Ninad. He just brushed up our electronics ba
 Second meet was with Anuj. He told us about GoLang and its basics, from scratch to running a simple echo server locally. He told us about the pros and cons of Go and other languages(sort of comparison). He also gave us a assignment - Implement data.sparkfun.com without a database i.e. store 4 public/private keys and check if they are valid&lt;/p&gt;
 </description>
 				<pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
-				<link>/general/meet/2015/07/17/Keep%20it%20GO-ing.html</link>
-				<guid isPermaLink="true">/general/meet/2015/07/17/Keep%20it%20GO-ing.html</guid>
+				<link>/meet/2015/07/17/Keep%20it%20GO-ing.html</link>
+				<guid isPermaLink="true">/meet/2015/07/17/Keep%20it%20GO-ing.html</guid>
 			</item>
 		
 			<item>
@@ -56,6 +56,28 @@ Second meet was with Anuj. He told us about GoLang and its basics, from scratch 
 				<pubDate>Wed, 15 Jul 2015 00:00:00 +0530</pubDate>
 				<link>/science/technical/2015/07/15/the_pentaquark.html</link>
 				<guid isPermaLink="true">/science/technical/2015/07/15/the_pentaquark.html</guid>
+			</item>
+		
+			<item>
+				<title>1st Meet</title>
+				<description>&lt;p&gt;This (Date : 09/07/2015) was our first meet with Anuj and Ninad (from &lt;a href=&quot;http://www.getblee.com/&quot;&gt;Bleetech&lt;/a&gt;).&lt;br /&gt;
+This was a introduction session Anuj introduces us(me and my Team &lt;a href=&quot;http://sitaramshelke.github.io&quot;&gt;Sitaram&lt;/a&gt;, &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://pimprikarvivek.github.io/&quot;&gt;Vivek&lt;/a&gt; AKA IoTians) with his team of &lt;em&gt;Bleetech&lt;/em&gt;. Anuj gave us brief idea about &lt;em&gt;‘How to use git?’&lt;/em&gt; and told us more about its features which I was unaware about.&lt;br /&gt;
+He covers many other topics including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+  &lt;li&gt;Slack&lt;/li&gt;
+  &lt;li&gt;Issues&lt;/li&gt;
+  &lt;li&gt;Merging&lt;/li&gt;
+  &lt;li&gt;Pull requests&lt;/li&gt;
+  &lt;li&gt;IRC etiquette&lt;/li&gt;
+  &lt;li&gt;Blogging&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Mon, 13 Jul 2015 00:00:00 +0530</pubDate>
+				<link>/meet/2015/07/13/lets_start.html</link>
+				<guid isPermaLink="true">/meet/2015/07/13/lets_start.html</guid>
 			</item>
 		
 			<item>
@@ -123,9 +145,7 @@ Second meet was with Anuj. He told us about GoLang and its basics, from scratch 
 		
 			<item>
 				<title>Hello World!</title>
-				<description>&lt;h4 id=&quot;this-is-a-test-post&quot;&gt;This is a Test post&lt;/h4&gt;
-
-&lt;p&gt;How to write &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; file?&lt;/p&gt;
+				<description>&lt;p&gt;How to write &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; file?&lt;/p&gt;
 </description>
 				<pubDate>Sat, 11 Jul 2015 00:00:00 +0530</pubDate>
 				<link>/general/setup/2015/07/11/hello-world.html</link>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2nd and 3rd Meet
-categories: [general, meet]
+categories: [meet]
 tags: [Go]
 description: Keep it GO-ing
 ---

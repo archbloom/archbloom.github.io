@@ -23,10 +23,11 @@ author:
   pinterest: archbloom
   linkedin: bhushanauthankar
   bio: It will change our Lives
-  email_md5: 
+  email_md5:
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
+about_path: about.html
 
 BASE_PATH:
