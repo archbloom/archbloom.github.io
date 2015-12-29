@@ -7,6 +7,47 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Moving to PhotoView</title>
+				<description>&lt;p&gt;&lt;a href=&quot;https://github.com/square/picasso&quot;&gt;Picasso&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/chrisbanes/PhotoView&quot;&gt;PhotoView&lt;/a&gt;&lt;/p&gt;
+</description>
+				<pubDate>Tue, 29 Dec 2015 00:00:00 +0530</pubDate>
+				<link>/project/2015/12/29/Moving%20to%20PhotoView.html</link>
+				<guid isPermaLink="true">/project/2015/12/29/Moving%20to%20PhotoView.html</guid>
+			</item>
+		
+			<item>
+				<title>DroidCon 2015</title>
+				<description>&lt;p&gt;We (me along with my team &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://sitaramshelke.github.io/&quot;&gt;Sitaram&lt;/a&gt;) have developed a Android application for &lt;a href=&quot;http://www.anujdeshpande.com/&quot;&gt;Anuj’s&lt;/a&gt; talk at &lt;a href=&quot;http://droidcon.in/&quot;&gt;DroidCon-In 2015&lt;/a&gt; to show how we can create context aware navigation experiences using beacons. We have used &lt;a href=&quot;http://estimote.com/&quot;&gt;Estimote beacons&lt;/a&gt; as hardware and their &lt;a href=&quot;https://github.com/Estimote/Android-SDK&quot;&gt;Estimote Android sdk&lt;/a&gt; libraries for the application.&lt;/p&gt;
+
+&lt;p&gt;Beacon is a small transmitting device which continuously transmits  signals at regular intervals within a short range. We have used Estimote beacons with Eddystone which is a protocol specification for defining the beacons message format. Beacon uses Bluetooth low energy i.e. Bluetooth 4.0 AKA Bluetooth Smart.&lt;br /&gt;
+For more details about Beacons visit &lt;a href=&quot;http://blog.makerville.io/building-apps-using-eddystone-part-1&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can download the app form Google Play Store &lt;a href=&quot;https://play.google.com/store/apps/details?id=droidcon_phyweb.makerville.com.droidcon_phyweb&amp;amp;hl=en&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You will need beacons with Eddystone format to test the app.&lt;/p&gt;
+
+&lt;p&gt;Here are some of the screenshots of the application:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ico/droidcon1.png&quot; alt=&quot;&quot; /&gt;    &lt;img src=&quot;/assets/ico/droidcon2.png&quot; alt=&quot;&quot; /&gt;    &lt;img src=&quot;/assets/ico/droidcon3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Its an open source project you can also contribute.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 15 Dec 2015 00:00:00 +0530</pubDate>
+				<link>/contribute/2015/12/15/DroidconIn2015.html</link>
+				<guid isPermaLink="true">/contribute/2015/12/15/DroidconIn2015.html</guid>
+			</item>
+		
+			<item>
+				<title>Using Picasso</title>
+				<description>
+</description>
+				<pubDate>Wed, 02 Dec 2015 00:00:00 +0530</pubDate>
+				<link>/project/2015/12/02/PicassoVsVolly.html</link>
+				<guid isPermaLink="true">/project/2015/12/02/PicassoVsVolly.html</guid>
+			</item>
+		
+			<item>
 				<title>2nd and 3rd Meet</title>
 				<description>&lt;p&gt;This was the second week. Week was Heavy, lot many things happened in this week.
 Our first meet of the week was with Ninad. He just brushed up our electronics basics. He told us about the communication protocols (&lt;em&gt;SPI -Serial Peripheral Interface&lt;/em&gt; and &lt;em&gt;I2C-Inter-Integrated Circuit&lt;/em&gt;) which are used in serial and parallel devices.
@@ -61,7 +102,8 @@ Second meet was with Anuj. He told us about GoLang and its basics, from scratch 
 			<item>
 				<title>1st Meet</title>
 				<description>&lt;p&gt;This (Date : 09/07/2015) was our first meet with Anuj and Ninad (from &lt;a href=&quot;http://www.getblee.com/&quot;&gt;Bleetech&lt;/a&gt;).&lt;br /&gt;
-This was a introduction session Anuj introduces us(me and my Team &lt;a href=&quot;http://sitaramshelke.github.io&quot;&gt;Sitaram&lt;/a&gt;, &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://pimprikarvivek.github.io/&quot;&gt;Vivek&lt;/a&gt; AKA IoTians) with his team of &lt;em&gt;Bleetech&lt;/em&gt;. Anuj gave us brief idea about &lt;em&gt;‘How to use git?’&lt;/em&gt; and told us more about its features which I was unaware about.&lt;br /&gt;
+This was a introduction session Anuj introduces us(me and my Team &lt;a href=&quot;http://sitaramshelke.github.io&quot;&gt;Sitaram&lt;/a&gt;, &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://pimprikarvivek.github.io/&quot;&gt;Vivek&lt;/a&gt; AKA IoTians) with his team of &lt;em&gt;Bleetech&lt;/em&gt;. &lt;br /&gt;
+Anuj gave us brief idea about &lt;em&gt;‘How to use git?’&lt;/em&gt; and told us more about its features which I was unaware about.&lt;br /&gt;
 He covers many other topics including:&lt;/p&gt;
 
 &lt;ul&gt;
