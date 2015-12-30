@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>DroidCon 2015</title>
+	<title>Using Picasso</title>
 	
-	<meta name="description" content="Android Application">
+	<meta name="description" content="Why use Picasso? Why not Volley?">
 	
 	<meta name="author" content="Bhushan Authankar">
 
@@ -158,7 +158,7 @@
 
 	<div class="col-sm-9 col-sm-offset-3">
 		<div class="page-header">
-  <h1>DroidCon 2015 </h1>
+  <h1>Using Picasso </h1>
 </div>
 	
 <article>
@@ -167,25 +167,24 @@
 	 <span class="post-date">
 	   
 	   December 
-	   15th,
-	   
+	   2nd,
+	     
 	   2015
 	 </span>
 	  <div class="article_body">
-	  <p>We (me along with my team <a href="http://chinmay1994.github.io/">Chinmay</a> and <a href="http://sitaramshelke.github.io/">Sitaram</a>) have developed a Android application for <a href="http://www.anujdeshpande.com/">Anuj’s</a> talk at <a href="http://droidcon.in/">DroidCon-In 2015</a> to show how we can create context aware navigation experiences using beacons. We have used <a href="http://estimote.com/">Estimote beacons</a> as hardware and their <a href="https://github.com/Estimote/Android-SDK">Estimote Android sdk</a> libraries for the application.</p>
+	  <p><a href="http://square.github.io/picasso/">Picasso</a> is totally focused on image loading. As a result, if you have quirks in your image loading process</p>
 
-<p>Beacon is a small transmitting device which continuously transmits  signals at regular intervals within a short range. We have used Estimote beacons with Eddystone which is a protocol specification for defining the beacons message format. Beacon uses Bluetooth low energy i.e. Bluetooth 4.0 AKA Bluetooth Smart.<br />
-For more details about Beacons visit <a href="http://blog.makerville.io/building-apps-using-eddystone-part-1">here</a>.</p>
+<p><a href="http://developer.android.com/training/volley/index.html">Volley</a>, on the other hand, is totally focused on handling individual, small HTTP requests. So if your HTTP request handling has some quirks, Volley probably has a hook for you. If, on the other hand, you have a quirk in your image handling, the only real hook you have is ImageCache. It’s not nothing, but it’s not a lot, either.but it have more other advantages like Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks</p>
 
-<p>You can download the app form Google Play Store <a href="https://play.google.com/store/apps/details?id=droidcon_phyweb.makerville.com.droidcon_phyweb&amp;hl=en">here</a>.</p>
+<p>Picasso does just one thing, while Volley tries to solve a more general problem.</p>
 
-<p>You will need beacons with Eddystone format to test the app.</p>
+<h4 id="which-library-should-i-use">Which Library Should I Use?</h4>
+<p>If you have a large, stable, pre-existing project, you are probably better off using Picasso. Integration is painless, performance seems good, and if the fade-in works for you, you get some free visual fun.</p>
 
-<p>Here are some of the screenshots of the application:</p>
+<p>On the other hand, if your app is new, or if it’s small enough that you can think about swapping out the back end completely, and it deals mostly with small HTTP payloads, Volley is worth considering. Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks, you don’t have to worry about too many threads.</p>
 
-<p><img src="/assets/ico/droidcon1.png" alt="" />    <img src="/assets/ico/droidcon2.png" alt="" />    <img src="/assets/ico/droidcon3.png" alt="" /></p>
-
-<p>Its an open source project you can also contribute.</p>
+<h5 id="what-about-using-both">What about using both?</h5>
+<p>If Volley’s image management causes you severe pain, then you’re probably fine using both.</p>
 
 	  </div>
 
@@ -195,8 +194,8 @@ For more details about Beacons visit <a href="http://blog.makerville.io/building
 		  
 		  
 			 
-				<li><a href="/categories.html#contribute-ref">
-					contribute <span>(1)</span>
+				<li><a href="/categories.html#project-ref">
+					project <span>(2)</span>
 					
 				</a></li>
 			
@@ -209,13 +208,6 @@ For more details about Beacons visit <a href="http://blog.makerville.io/building
 		  <li><i class="fa fa-tags"></i></li>
 		  
 		  
-			 
-				<li>
-					<a href="/tags.html#DroidCon-ref">
-					DroidCon <span>(1)</span>
-					,
-					</a>
-				</li>
 			 
 				<li>
 					<a href="/tags.html#Android-ref">
@@ -234,7 +226,7 @@ For more details about Beacons visit <a href="http://blog.makerville.io/building
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=DroidCon 2015&via=archbloom"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Using Picasso&via=archbloom"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -262,10 +254,10 @@ For more details about Beacons visit <a href="http://blog.makerville.io/building
 
 		<ul class="pager">
 		  
-		  <li class="previous"><a href="/project/2015/12/02/PicassoVsVolley.html" title="Using Picasso">&larr; Previous</a></li>
+		  <li class="previous"><a href="/meet/2015/07/17/Keep%20it%20GO-ing.html" title="2nd and 3rd Meet">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/project/2015/12/29/Moving%20to%20PhotoView.html" title="Moving to PhotoView">Next &rarr;</a></li>
+		  <li class="next"><a href="/contribute/2015/12/15/DroidconIn2015.html" title="DroidCon 2015">Next &rarr;</a></li>
 		  
 		</ul>
 
