@@ -9,7 +9,7 @@
 			<item>
 				<title>Moving to PhotoView</title>
 				<description>&lt;p&gt;It is not like you have to move from &lt;a href=&quot;https://github.com/square/picasso&quot;&gt;Picasso&lt;/a&gt;  to &lt;a href=&quot;https://github.com/chrisbanes/PhotoView&quot;&gt;PhotoView&lt;/a&gt; for image manipulation. Both libraries are for different purposes.
-Picasso is used to load image from file system or download it from internet, you can not perform operations like zooming, tapping on image. PhotoView is used for that purpose.&lt;br /&gt;
+Picasso is used to load image from file system or download it from internet, you can not perform operations like zooming, tapping on image. PhotoView is used for that purpose.  &lt;br /&gt;
  Picasso caches the image. This feature is not available in PhotoView.&lt;br /&gt;
  Loading is faster with the help of picasso.&lt;/p&gt;
 
