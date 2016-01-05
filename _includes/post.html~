@@ -91,6 +91,10 @@
         </a>
       </section>
 
+      <section class="col-sm-6 author">
+        <h4 class="section-title author-name">{{site.author.name}}</h4>
+        <p class="author-bio">{{site.author.bio}}</p>
+      </section>
     </div>
 
     <div class="clearfix"></div>

@@ -9,7 +9,8 @@ group: navigation
 	<tr><td width=30%><img src="/assets/ico/qwerty.png"></td>
 			<td width=70%><h3>Bhushan Authankar</h3>
 										<h4>  (archbloom)</h4>
-										<p>I am Undergraduate student of Computer Engineering.</p>
+										<p>Type your information here.<br/>
+										you will see like this</p>
 										<a class="btn btn-default btn-sm" href="https://github.com/archbloom">Github</a><br/>
 										<a class="btn btn-default btn-sm" href="https://www.codechef.com/users/archbloom">CodeChef</a><br/>
 										<a class="btn btn-default btn-sm" href="cv_bhushan_authankar.pdf">CV [pdf]</a><br/>

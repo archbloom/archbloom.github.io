@@ -101,6 +101,8 @@
 			<hr/>
 			<p>
 				Blog by Bhushan Authankar  <br>
+				Open sourced under <a href="http://opensource.org/licenses/MIT">MIT</a> license.
+				<!---&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. hello Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.--->
 			</p>
 		</footer>
 	</div>

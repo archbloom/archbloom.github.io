@@ -15,7 +15,7 @@
 	<a href="{{ site.BASE_PATH}}/{{ site.about_path }}"><h4>About me</h4></a>
 	<a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><h4>Categories</h4></a>
 	<a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><h4>Tags</h4></a>
-	<!--a herf="/all_posts.html"><h4>All posts</h4></a-->
+	<a herf="/all_posts.html"><h4>All posts</h4></a>
 </div>
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
