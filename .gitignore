@@ -1,5 +1,6 @@
 _config.yml
 _site/*
+_site
 *Thumbs.db
 
 .sass-cache/
