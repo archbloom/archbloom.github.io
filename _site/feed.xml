@@ -46,9 +46,11 @@ For more details about Beacons visit &lt;a href=&quot;http://blog.makerville.io/
 		
 			<item>
 				<title>Using Picasso</title>
-				<description>&lt;p&gt;&lt;a href=&quot;http://square.github.io/picasso/&quot;&gt;Picasso&lt;/a&gt; is totally focused on image loading. As a result, if you have quirks in your image loading process&lt;/p&gt;
+				<description>&lt;p&gt;As a Android app developeryou must have encounter this question: What should I use Picasso or Volley?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://developer.android.com/training/volley/index.html&quot;&gt;Volley&lt;/a&gt;, on the other hand, is totally focused on handling individual, small HTTP requests. So if your HTTP request handling has some quirks, Volley probably has a hook for you. If, on the other hand, you have a quirk in your image handling, the only real hook you have is ImageCache. It’s not nothing, but it’s not a lot, either.but it have more other advantages like Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://square.github.io/picasso/&quot;&gt;Picasso&lt;/a&gt; is totally focused on image loading. As a result, if you have quirks in your image loading process&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://developer.android.com/training/volley/index.html&quot;&gt;Volley&lt;/a&gt;, on the other hand, is totally focused on handling individual, small HTTP requests. So if your HTTP request handling has some quirks, Volley probably has a hook for you. If, on the other hand, you have a quirk in your image handling, the only real hook you have is ImageCache. It’s not nothing, but it’s not a lot, either.but it have more other advantages like Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks.&lt;/p&gt;
 
 &lt;p&gt;Picasso does just one thing, while Volley tries to solve a more general problem.&lt;/p&gt;
 
@@ -120,7 +122,7 @@ Second meet was with Anuj. He told us about GoLang and its basics, from scratch 
 			<item>
 				<title>1st Meet</title>
 				<description>&lt;p&gt;This (Date : 09/07/2015) was our first meet with Anuj and Ninad (from &lt;a href=&quot;http://www.getblee.com/&quot;&gt;Bleetech&lt;/a&gt;).&lt;br /&gt;
-This was a introduction session Anuj introduces us(me and my Team &lt;a href=&quot;http://sitaramshelke.github.io&quot;&gt;Sitaram&lt;/a&gt;, &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://pimprikarvivek.github.io/&quot;&gt;Vivek&lt;/a&gt; AKA IoTians) with his team of &lt;em&gt;Bleetech&lt;/em&gt;. &lt;br /&gt;
+This was a introduction session Anuj introduces us(me and my Team &lt;a href=&quot;http://sitaramshelke.github.io&quot;&gt;Sitaram&lt;/a&gt;, &lt;a href=&quot;http://chinmay1994.github.io/&quot;&gt;Chinmay&lt;/a&gt; and &lt;a href=&quot;http://pimprikarvivek.github.io/&quot;&gt;Vivek&lt;/a&gt; AKA IoTians) with his team of &lt;em&gt;Bleetech&lt;/em&gt;.
 Anuj gave us brief idea about &lt;em&gt;‘How to use git?’&lt;/em&gt; and told us more about its features which I was unaware about.&lt;br /&gt;
 He covers many other topics including:&lt;/p&gt;
 
@@ -133,7 +135,6 @@ He covers many other topics including:&lt;/p&gt;
   &lt;li&gt;IRC etiquette&lt;/li&gt;
   &lt;li&gt;Blogging&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
 				<pubDate>Mon, 13 Jul 2015 00:00:00 +0530</pubDate>
 				<link>/meet/2015/07/13/lets_start.html</link>
