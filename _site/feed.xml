@@ -7,6 +7,97 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Retrofit</title>
+				<description>&lt;h3 id=&quot;why-retrofit&quot;&gt;Why Retrofit?&lt;/h3&gt;
+&lt;p&gt;Before using &lt;a href=&quot;http://square.github.io/retrofit/&quot;&gt;Retrofit&lt;/a&gt;, I was searching for HTTP client.  After using Retrofit, my work gets more easy.&lt;/p&gt;
+
+&lt;p&gt;Retrofit is a type-safe HTTP client for Android and Java developed by &lt;a href=&quot;https://square.github.io/&quot;&gt;Square&lt;/a&gt;.  The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with &lt;a href=&quot;https://square.github.io/okhttp&quot;&gt;OkHttp&lt;/a&gt;.&lt;br /&gt;
+This library makes downloading JSON or XML data from a web API fairly straightforward. Once the data is downloaded then it is parsed into a Plain Old Java Object (POJO) which must be defined for each “resource” in the response.&lt;/p&gt;
+
+&lt;p&gt;Comparison of Volley and Retrofit :&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;One Discussion&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;25 Discussions&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Volley&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;560ms&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4275ms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Retrofit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;312ms&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1059ms&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Add library to project :&lt;/p&gt;
+
+&lt;h5 id=&quot;for-gradle&quot;&gt;For Gradle:&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;
+compile 'com.squareup.retrofit:retrofit:1.9.0'
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;for-maven-&quot;&gt;For Maven :&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;
+    &amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;com.squareup.retrofit&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;retrofit&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;1.9.0&amp;lt;/version&amp;gt;
+    &amp;lt;/dependency&amp;gt;  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Retrofit requires at minimum Java 7 or Android 2.3.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+&lt;p&gt;In Retrofit,we need to create 3 classes.&lt;/p&gt;
+
+&lt;p&gt;1) &lt;strong&gt;Interface&lt;/strong&gt; : We need to create an interface for managing URL calls like GET,POST etc. This is the service class.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;@GET(“/path/{id}”)&lt;/strong&gt; : This will call the server. Where URL is form after the BASE URL.The service  calling URL will start with ‘/’ and {id} is the string retrieved from edittext.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;@Path(“id”)&lt;/strong&gt; : String ‘id’ is the string which we get from the edittext.&lt;/p&gt;
+
+&lt;p&gt;2) &lt;strong&gt;POJO (Plain Old Java Object) or Model Class&lt;/strong&gt; : The json retrieved from the server is added to this class.&lt;br /&gt;
+The Json from server cannot be use directly in Java,so we need to use model class.&lt;br /&gt;
+Use &lt;a href=&quot;http://www.jsonschema2pojo.org/&quot;&gt;jsonschema2pojo&lt;/a&gt; for creating the POJO easily.&lt;/p&gt;
+
+&lt;p&gt;3) &lt;strong&gt;RestAdapter Class&lt;/strong&gt; : This is RESTClient Class. Gson is used in default for the Retrofit.You can use setup your own converter.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;API is the Base URL.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We need to create a RestAdapter object with Endpoint(API) and then buid().&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Call the function for getting the response,Callback is used for async method.We need Callback for both success request and error handling.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Our parsed json will be now in POJO. You can call each by calling each item.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Make sure to require Internet permissions in your &lt;em&gt;AndroidManifest.xml&lt;/em&gt; file:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;  
+&lt;/code&gt;&lt;/p&gt;
+</description>
+				<pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
+				<link>/project/2016/01/12/Retrofit.html</link>
+				<guid isPermaLink="true">/project/2016/01/12/Retrofit.html</guid>
+			</item>
+		
+			<item>
 				<title>Moving to PhotoView</title>
 				<description>&lt;p&gt;It is not like you have to move from &lt;a href=&quot;https://github.com/square/picasso&quot;&gt;Picasso&lt;/a&gt;  to &lt;a href=&quot;https://github.com/chrisbanes/PhotoView&quot;&gt;PhotoView&lt;/a&gt; for image manipulation. Both libraries are for different purposes.&lt;/p&gt;
 
