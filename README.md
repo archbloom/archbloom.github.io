@@ -1,7 +1,7 @@
 Bhushan Authankar (archbloom)
 =====
 
-Website / Blog
+Personal Website / Blog
 
 ### License
 - [MIT](http://opensource.org/licenses/MIT)
