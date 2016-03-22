@@ -8,8 +8,8 @@
 		
 			<item>
 				<title>Retrofit</title>
-				<description>&lt;h3 id=&quot;why-retrofit&quot;&gt;Why Retrofit?&lt;/h3&gt;
-&lt;p&gt;Before using &lt;a href=&quot;http://square.github.io/retrofit/&quot;&gt;Retrofit&lt;/a&gt;, I was searching for HTTP client.  After using Retrofit, my work gets more easy.&lt;/p&gt;
+				<description>&lt;p&gt;###Why Retrofit?
+Before using &lt;a href=&quot;http://square.github.io/retrofit/&quot;&gt;Retrofit&lt;/a&gt;, I was searching for HTTP client.  After using Retrofit, my work gets more easy.&lt;/p&gt;
 
 &lt;p&gt;Retrofit is a type-safe HTTP client for Android and Java developed by &lt;a href=&quot;https://square.github.io/&quot;&gt;Square&lt;/a&gt;.  The library provides a powerful framework for authenticating and interacting with APIs and sending network requests with &lt;a href=&quot;https://square.github.io/okhttp&quot;&gt;OkHttp&lt;/a&gt;.&lt;br /&gt;
 This library makes downloading JSON or XML data from a web API fairly straightforward. Once the data is downloaded then it is parsed into a Plain Old Java Object (POJO) which must be defined for each “resource” in the response.&lt;/p&gt;
@@ -40,13 +40,13 @@ This library makes downloading JSON or XML data from a web API fairly straightfo
 
 &lt;p&gt;Add library to project :&lt;/p&gt;
 
-&lt;h5 id=&quot;for-gradle&quot;&gt;For Gradle:&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;
-compile 'com.squareup.retrofit:retrofit:1.9.0'
+&lt;p&gt;#####For Gradle:
+&lt;code&gt;
+compile &#39;com.squareup.retrofit:retrofit:1.9.0&#39;
 &lt;/code&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;for-maven-&quot;&gt;For Maven :&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;
+&lt;p&gt;#####For Maven :
+&lt;code&gt;
     &amp;lt;dependency&amp;gt;
     &amp;lt;groupId&amp;gt;com.squareup.retrofit&amp;lt;/groupId&amp;gt;
     &amp;lt;artifactId&amp;gt;retrofit&amp;lt;/artifactId&amp;gt;
@@ -56,8 +56,8 @@ compile 'com.squareup.retrofit:retrofit:1.9.0'
 
 &lt;p&gt;Retrofit requires at minimum Java 7 or Android 2.3.&lt;/p&gt;
 
-&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
-&lt;p&gt;In Retrofit,we need to create 3 classes.&lt;/p&gt;
+&lt;p&gt;###Overview&lt;br /&gt;
+In Retrofit,we need to create 3 classes.&lt;/p&gt;
 
 &lt;p&gt;1) &lt;strong&gt;Interface&lt;/strong&gt; : We need to create an interface for managing URL calls like GET,POST etc. This is the service class.&lt;/p&gt;
 
@@ -88,9 +88,8 @@ Use &lt;a href=&quot;http://www.jsonschema2pojo.org/&quot;&gt;jsonschema2pojo&lt
 
 &lt;p&gt;Make sure to require Internet permissions in your &lt;em&gt;AndroidManifest.xml&lt;/em&gt; file:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;
-    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;  
-&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;
 </description>
 				<pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
 				<link>/project/2016/01/12/Retrofit.html</link>
@@ -109,8 +108,8 @@ Use &lt;a href=&quot;http://www.jsonschema2pojo.org/&quot;&gt;jsonschema2pojo&lt
 &lt;p&gt;PhotoView can be used along with Picasso.&lt;/p&gt;
 </description>
 				<pubDate>Tue, 29 Dec 2015 00:00:00 +0530</pubDate>
-				<link>/project/2015/12/29/Moving%20to%20PhotoView.html</link>
-				<guid isPermaLink="true">/project/2015/12/29/Moving%20to%20PhotoView.html</guid>
+				<link>/project/2015/12/29/Moving-to-PhotoView.html</link>
+				<guid isPermaLink="true">/project/2015/12/29/Moving-to-PhotoView.html</guid>
 			</item>
 		
 			<item>
@@ -145,13 +144,13 @@ For more details about Beacons visit &lt;a href=&quot;http://blog.makerville.io/
 
 &lt;p&gt;Picasso does just one thing, while Volley tries to solve a more general problem.&lt;/p&gt;
 
-&lt;h4 id=&quot;which-library-should-i-use&quot;&gt;Which Library Should I Use?&lt;/h4&gt;
-&lt;p&gt;If you have a large, stable, pre-existing project, you are probably better off using Picasso. Integration is painless, performance seems good, and if the fade-in works for you, you get some free visual fun.&lt;/p&gt;
+&lt;p&gt;####Which Library Should I Use?####&lt;br /&gt;
+ If you have a large, stable, pre-existing project, you are probably better off using Picasso. Integration is painless, performance seems good, and if the fade-in works for you, you get some free visual fun.&lt;/p&gt;
 
 &lt;p&gt;On the other hand, if your app is new, or if it’s small enough that you can think about swapping out the back end completely, and it deals mostly with small HTTP payloads, Volley is worth considering. Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks, you don’t have to worry about too many threads.&lt;/p&gt;
 
-&lt;h5 id=&quot;what-about-using-both&quot;&gt;What about using both?&lt;/h5&gt;
-&lt;p&gt;If Volley’s image management causes you severe pain, then you’re probably fine using both.&lt;/p&gt;
+&lt;p&gt;#####What about using both?#####
+If Volley’s image management causes you severe pain, then you’re probably fine using both.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Dec 2015 00:00:00 +0530</pubDate>
 				<link>/project/2015/12/02/PicassoVsVolley.html</link>
@@ -165,13 +164,13 @@ Our first meet of the week was with Ninad. He just brushed up our electronics ba
 Second meet was with Anuj. He told us about GoLang and its basics, from scratch to running a simple echo server locally. He told us about the pros and cons of Go and other languages(sort of comparison). He also gave us a assignment - Implement data.sparkfun.com without a database i.e. store 4 public/private keys and check if they are valid&lt;/p&gt;
 </description>
 				<pubDate>Fri, 17 Jul 2015 00:00:00 +0530</pubDate>
-				<link>/meet/2015/07/17/Keep%20it%20GO-ing.html</link>
-				<guid isPermaLink="true">/meet/2015/07/17/Keep%20it%20GO-ing.html</guid>
+				<link>/meet/2015/07/17/Keep-it-GO-ing.html</link>
+				<guid isPermaLink="true">/meet/2015/07/17/Keep-it-GO-ing.html</guid>
 			</item>
 		
 			<item>
 				<title>The Pentaquark</title>
-				<description>&lt;h3 id=&quot;lhc-scientists-discover-new-kind-of-particle-the-pentaquark&quot;&gt;LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/h3&gt;
+				<description>&lt;p&gt;###LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/ico/pentaquark_cern.png&quot; alt=&quot;pentaquark&quot; /&gt;&lt;/p&gt;
 
@@ -243,12 +242,12 @@ He covers many other topics including:&lt;/p&gt;
 		
 			<item>
 				<title>Welcome HTTP/2</title>
-				<description>&lt;h4 id=&quot;what-is-http&quot;&gt;What is HTTP?&lt;/h4&gt;
-&lt;p&gt;Short for &lt;em&gt;HyperText Transfer Protocol&lt;/em&gt;, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.&lt;/p&gt;
+				<description>&lt;p&gt;####What is HTTP?&lt;br /&gt;
+Short for &lt;em&gt;HyperText Transfer Protocol&lt;/em&gt;, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.&lt;/p&gt;
 
 &lt;p&gt;The other main standard that controls how the World Wide Web works is HTML, which covers how Web pages are formatted and displayed.&lt;/p&gt;
 
-&lt;h4 id=&quot;what-is-http1&quot;&gt;What is HTTP/1?&lt;/h4&gt;
+&lt;p&gt;####What is HTTP/1?&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;Hypertext Transfer Protocol (HTTP)&lt;/em&gt; is a wildly successful protocol. However, the way HTTP/1.1 uses the underlying transport &lt;a href=&quot;https://tools.ietf.org/html/rfc7230&quot;&gt;RFC7230&lt;/a&gt; has several characteristics that have a negative overall effect on application performance today.&lt;/p&gt;
 
@@ -262,7 +261,7 @@ He covers many other topics including:&lt;/p&gt;
 
 &lt;p&gt;Finally, HTTP/2 also enables more efficient processing of messages through use of binary message framing.&lt;/p&gt;
 
-&lt;h4 id=&quot;overview-of-http2-&quot;&gt;Overview of HTTP/2 :&lt;/h4&gt;
+&lt;p&gt;####Overview of HTTP/2 :&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc7540&quot;&gt;HTTP/2&lt;/a&gt; provides an optimized transport for HTTP semantics. HTTP/2 supports all of the core features of HTTP/1.1 but aims to be more efficient in several ways.&lt;/p&gt;
 
