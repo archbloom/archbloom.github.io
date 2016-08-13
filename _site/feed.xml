@@ -8,23 +8,23 @@
 		
 			<item>
 				<title>Introduction To Ruby</title>
-				<description>&lt;p&gt;I recently started learning Ruby. My friend once said, ‘The best way to start learning is hands-on and write about it’.&lt;br /&gt;
+				<description>&lt;p&gt;I recently started learning Ruby. My friend once said, ‘The best way to start learning is hands-on and write about it’.
 But where to write, hence blog it.&lt;/p&gt;
 
 &lt;p&gt;Yukihiro Matsumoto AKA Matz in mid 1990’s created a scripting language and named it ‘Ruby’.
 It is said that&lt;br /&gt;
 &lt;strong&gt;Ruby is “A Programmer’s Best Friend”.&lt;/strong&gt;&lt;br /&gt;
-Yes I believe it.&lt;br /&gt;
+Yes, I believe it.&lt;br /&gt;
 Features of Ruby&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Ruby is Pure Object-Oriented programming language.&lt;/li&gt;
   &lt;li&gt;Ruby is interpreted language.&lt;/li&gt;
-  &lt;li&gt;Ruby has clean syntax.&lt;/li&gt;
   &lt;li&gt;Ruby is case sensitive.&lt;/li&gt;
   &lt;li&gt;Ruby is a server-side scripting language.&lt;/li&gt;
-  &lt;li&gt;Ruby is a general-purpose, interpreted programming language.&lt;/li&gt;
-  &lt;li&gt;Reading Ruby code is like reading English sentence.&lt;/li&gt;
+  &lt;li&gt;Ruby is a general-purpose language.&lt;/li&gt;
+  &lt;li&gt;Ruby has clean syntax.&lt;/li&gt;
+  &lt;li&gt;Reading Ruby script is like reading English sentence.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;There is no need of indentation in Ruby, but you should follow the convention of two character indentation.&lt;/p&gt;
