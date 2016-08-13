@@ -7,6 +7,67 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Introduction To Ruby</title>
+				<description>&lt;p&gt;I recently started learning Ruby. My friend once said, ‘The best way to start learning is hands-on and write about it’.&lt;br /&gt;
+But where to write, hence blog it.&lt;/p&gt;
+
+&lt;p&gt;Yukihiro Matsumoto AKA Matz in mid 1990’s created a scripting language and named it ‘Ruby’.
+It is said that&lt;br /&gt;
+&lt;strong&gt;Ruby is “A Programmer’s Best Friend”.&lt;/strong&gt;&lt;br /&gt;
+Yes I believe it.&lt;br /&gt;
+Features of Ruby&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby is Pure Object-Oriented programming language.&lt;/li&gt;
+  &lt;li&gt;Ruby is interpreted language.&lt;/li&gt;
+  &lt;li&gt;Ruby has clean syntax.&lt;/li&gt;
+  &lt;li&gt;Ruby is case sensitive.&lt;/li&gt;
+  &lt;li&gt;Ruby is a server-side scripting language.&lt;/li&gt;
+  &lt;li&gt;Ruby is a general-purpose, interpreted programming language.&lt;/li&gt;
+  &lt;li&gt;Reading Ruby code is like reading English sentence.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is no need of indentation in Ruby, but you should follow the convention of two character indentation.&lt;/p&gt;
+
+&lt;p&gt;Lets get started. Lets write first script, I don’t know why but it is always ‘Hello World’. I say go with ‘world’.&lt;br /&gt;
+ hello_world.rb&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  
+&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/ruby&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello_world&lt;/span&gt;  
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;    
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;      
+&lt;span class=&quot;n&quot;&gt;hello_world&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Run this script as :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$ ruby hello_world.rb&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Output : &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Hello World! &lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# indicates single line comment  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;=begin  
+This is the   
+multiline comment   
+=end  
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Installation needed :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Latest version of Ruby&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;irb&lt;/code&gt;(Interactive Ruby Shell) or &lt;code class=&quot;highlighter-rouge&quot;&gt;pry&lt;/code&gt; (same as irb)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 01 Aug 2016 00:00:00 +0530</pubDate>
+				<link>/2016/08/01/Introduction-to-ruby.html</link>
+				<guid isPermaLink="true">/2016/08/01/Introduction-to-ruby.html</guid>
+			</item>
+		
+			<item>
 				<title>Retrofit</title>
 				<description>&lt;p&gt;&lt;strong&gt;Why Retrofit?&lt;/strong&gt;&lt;br /&gt;
 Before using &lt;a href=&quot;http://square.github.io/retrofit/&quot;&gt;Retrofit&lt;/a&gt;, I was searching for HTTP client.  After using Retrofit, my work gets more easy.&lt;/p&gt;
@@ -41,7 +102,7 @@ This library makes downloading JSON or XML data from a web API fairly straightfo
 &lt;p&gt;Add library to project :&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;For Gradle:&lt;/strong&gt;&lt;br /&gt;
-&lt;code&gt; 
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
     compile &#39;com.squareup.retrofit:retrofit:x.x.x&#39;
 &lt;/code&gt;&lt;/p&gt;
 
@@ -79,8 +140,9 @@ Use &lt;a href=&quot;http://www.jsonschema2pojo.org/&quot;&gt;jsonschema2pojo.or
 
 &lt;p&gt;Make sure to require Internet permissions in your &lt;em&gt;AndroidManifest.xml&lt;/em&gt; file:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;  
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&amp;gt;  
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
 				<pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
 				<link>/project/2016/01/12/Retrofit.html</link>
