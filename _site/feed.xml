@@ -11,11 +11,10 @@
 				<description>&lt;p&gt;Loops are used to execute same block of code again and again for certain number of times or until specific condition is met. Loops in ruby is same as other laguages, but it supports some more functionalities&lt;/p&gt;
 
 &lt;h4 id=&quot;ruby-for-loop&quot;&gt;Ruby &lt;em&gt;for&lt;/em&gt; loop&lt;/h4&gt;
-&lt;p&gt;For loop is the most easiest looping statement in the programming. Ruby also supports &lt;em&gt;for&lt;/em&gt; loop but it has little different syntax.&lt;/p&gt;
+&lt;p&gt;For loop is the most easiest looping statement in the programming. Ruby also supports &lt;em&gt;for&lt;/em&gt; loop, but it has little different syntax.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  
-&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/ruby&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;  
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;   
   &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -29,9 +28,9 @@
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;ruby-while-loop&quot;&gt;Ruby &lt;em&gt;while&lt;/em&gt; loop&lt;/h4&gt;
-&lt;p&gt;While is the another simplest looping technique in programming. Ruby syntax for the while&lt;/p&gt;
+&lt;p&gt;While is the another simplest looping technique in programming. Ruby syntax for the while :&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/ruby&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  
 &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;  &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -75,15 +74,88 @@
 
 &lt;p&gt;Executes code &lt;em&gt;n&lt;/em&gt; times.&lt;/p&gt;
 
-&lt;h4 id=&quot;ruby-loop-statement&quot;&gt;Ruby &lt;em&gt;loop&lt;/em&gt; statement&lt;/h4&gt;
+&lt;h4 id=&quot;ruby-upto-loop&quot;&gt;Ruby &lt;em&gt;upto&lt;/em&gt; loop&lt;/h4&gt;
+&lt;p&gt;upto is another looping technique in ruby.&lt;/p&gt;
 
-&lt;h4 id=&quot;ruby-next&quot;&gt;Ruby &lt;em&gt;next&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;same as continue to skip the iteration###&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;upto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h4 id=&quot;ruby-redo&quot;&gt;Ruby &lt;em&gt;redo&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;executes previous statement if not handeled properly script might go in infinite loop###&lt;/p&gt;
+&lt;p&gt;Executes code &lt;em&gt;n&lt;/em&gt; times.&lt;/p&gt;
 
-&lt;h4 id=&quot;ruby-retry&quot;&gt;Ruby &lt;em&gt;retry&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;ruby-step-loop&quot;&gt;Ruby &lt;em&gt;step&lt;/em&gt; loop&lt;/h4&gt;
+&lt;p&gt;step looping technique is used to skip specific interval every time.&lt;br /&gt;
+For example if you want to take second element always you will put 2 instead of skip in the code snippet below. Which is equivalent to doing &lt;code class=&quot;highlighter-rouge&quot;&gt;i+=2&lt;/code&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;skip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;ruby-loop-loop&quot;&gt;Ruby &lt;em&gt;loop&lt;/em&gt; loop&lt;/h4&gt;
+&lt;p&gt;Loop in ruby another looping technique.&lt;/p&gt;
+
+&lt;h6 id=&quot;uncondition-looping-with-loop&quot;&gt;Uncondition looping with &lt;em&gt;loop&lt;/em&gt;&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;loop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Executes code infinitely. Not very helpful, but good to have knowledge about it.&lt;/p&gt;
+
+&lt;h6 id=&quot;conditional-looping-with-loop&quot;&gt;Conditional looping with &lt;em&gt;loop&lt;/em&gt;&lt;/h6&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;kp&quot;&gt;loop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Executes code, exits when condition is met.&lt;/p&gt;
+
+&lt;h4 id=&quot;ruby-break-statement&quot;&gt;Ruby &lt;em&gt;break&lt;/em&gt; statement&lt;/h4&gt;
+&lt;p&gt;For terminating the &lt;em&gt;most internal&lt;/em&gt; loop ruby provides &lt;em&gt;break&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;ruby-next-statement&quot;&gt;Ruby &lt;em&gt;next&lt;/em&gt; statement&lt;/h4&gt;
+&lt;p&gt;Jumps to next iteration of the most internal loop. Same as &lt;code class=&quot;highlighter-rouge&quot;&gt;continue&lt;/code&gt; in other languages.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;next&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;ruby-redo-statement&quot;&gt;Ruby &lt;em&gt;redo&lt;/em&gt; statement&lt;/h4&gt;
+&lt;p&gt;Restarts this iteration of the most internal loop, without checking loop condition.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/ruby&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;i is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;redo&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This will give output as and will in infinite loop.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;i is 0  
+i is 0  
+.  
+.  
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;ruby-retry-statement&quot;&gt;Ruby &lt;em&gt;retry&lt;/em&gt; statement&lt;/h4&gt;
+&lt;p&gt;retry appears &lt;em&gt;rescue&lt;/em&gt; clause. Retry starts execution of block from the begin.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;retry&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;With &lt;em&gt;begin&lt;/em&gt;, &lt;em&gt;rescue&lt;/em&gt; and &lt;em&gt;end&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#raise exception&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;rescue&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# hanles exception&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;retry&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#restart from the beginning&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 </description>
 				<pubDate>Mon, 08 Aug 2016 00:00:00 +0530</pubDate>
 				<link>/2016/08/08/loops-in-ruby.html</link>
@@ -281,13 +353,13 @@ For more details about Beacons visit &lt;a href=&quot;http://blog.makerville.io/
 
 &lt;p&gt;Picasso does just one thing, while Volley tries to solve a more general problem.&lt;/p&gt;
 
-&lt;p&gt;####Which Library Should I Use?####&lt;br /&gt;
- If you have a large, stable, pre-existing project, you are probably better off using Picasso. Integration is painless, performance seems good, and if the fade-in works for you, you get some free visual fun.&lt;/p&gt;
+&lt;h4 id=&quot;which-library-should-i-use&quot;&gt;Which Library Should I Use?&lt;/h4&gt;
+&lt;p&gt;If you have a large, stable, pre-existing project, you are probably better off using Picasso. Integration is painless, performance seems good, and if the fade-in works for you, you get some free visual fun.&lt;/p&gt;
 
 &lt;p&gt;On the other hand, if your app is new, or if it’s small enough that you can think about swapping out the back end completely, and it deals mostly with small HTTP payloads, Volley is worth considering. Once you define your requests, using them from within a fragment or activity is painless. And unlike parallel AsyncTasks, you don’t have to worry about too many threads.&lt;/p&gt;
 
-&lt;p&gt;#####What about using both?#####
-If Volley’s image management causes you severe pain, then you’re probably fine using both.&lt;/p&gt;
+&lt;h4 id=&quot;what-about-using-both&quot;&gt;What about using both?&lt;/h4&gt;
+&lt;p&gt;If Volley’s image management causes you severe pain, then you’re probably fine using both.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 02 Dec 2015 00:00:00 +0530</pubDate>
 				<link>/project/2015/12/02/PicassoVsVolley.html</link>
@@ -307,7 +379,7 @@ Second meet was with Anuj. He told us about GoLang and its basics, from scratch 
 		
 			<item>
 				<title>The Pentaquark</title>
-				<description>&lt;p&gt;###LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/p&gt;
+				<description>&lt;h4 id=&quot;lhc-scientists-discover-new-kind-of-particle-the-pentaquark&quot;&gt;LHC Scientists Discover New Kind of Particle: &lt;em&gt;The Pentaquark&lt;/em&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/ico/pentaquark_cern.png&quot; alt=&quot;pentaquark&quot; /&gt;&lt;/p&gt;
 
