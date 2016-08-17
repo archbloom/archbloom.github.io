@@ -6,12 +6,12 @@ tags: [info]
 description: Why HTTP/2?
 ---
 
-####What is HTTP?  
+#### What is HTTP?  
 Short for *HyperText Transfer Protocol*, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands. For example, when you enter a URL in your browser, this actually sends an HTTP command to the Web server directing it to fetch and transmit the requested Web page.
 
 The other main standard that controls how the World Wide Web works is HTML, which covers how Web pages are formatted and displayed.  
 
-####What is HTTP/1?  
+#### What is HTTP/1?  
 
 
 The *Hypertext Transfer Protocol (HTTP)* is a wildly successful protocol. However, the way HTTP/1.1 uses the underlying transport [RFC7230](https://tools.ietf.org/html/rfc7230) has several characteristics that have a negative overall effect on application performance today.
@@ -26,7 +26,7 @@ The resulting protocol is more friendly to the network because fewer TCP connect
 
 Finally, HTTP/2 also enables more efficient processing of messages through use of binary message framing.  
 
-####Overview of HTTP/2 : 
+#### Overview of HTTP/2 : 
 
 
 

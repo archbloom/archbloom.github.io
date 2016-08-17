@@ -6,7 +6,7 @@ tags: [lhc]
 description: LHC Scientists Discover New Kind of Particle
 ---  
 
-###LHC Scientists Discover New Kind of Particle: *The Pentaquark*
+#### LHC Scientists Discover New Kind of Particle: *The Pentaquark*
 
 ![pentaquark](/assets/ico/pentaquark_cern.png)
 
