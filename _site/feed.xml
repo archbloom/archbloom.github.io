@@ -7,6 +7,170 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Ruby Style Iteration</title>
+				<description>&lt;p&gt;Iterators are the methods supported by &lt;em&gt;collections&lt;/em&gt;. Collections are the objects which store data. In Ruby, &lt;em&gt;Arrays&lt;/em&gt; and &lt;em&gt;Hashes&lt;/em&gt; are the collections. Iterators are used to traverse collection and get the value one after another.&lt;br /&gt;
+Lets go through some iterators in ruby.&lt;/p&gt;
+
+&lt;h4 id=&quot;ruby-each&quot;&gt;Ruby &lt;em&gt;each&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;The each iterator returns all the values/elements of collection.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here the collection could be &lt;em&gt;Array&lt;/em&gt; or &lt;em&gt;Hash&lt;/em&gt;. &lt;em&gt;code&lt;/em&gt; will get executed for every element in the collection.&lt;br /&gt;
+&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Output for the snippet:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1  
+2  
+3  
+4  
+5  
+=&amp;gt; [1, 2, 3, 4, 5]   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Ruby has some variations in &lt;em&gt;each&lt;/em&gt; :&lt;br /&gt;
+&lt;strong&gt;Ruby &lt;em&gt;each_index&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+This returns all the positions of the collection in order.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each_index&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;code&lt;/em&gt; gets executed for every index in the collection.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby &lt;em&gt;each_with_index&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+This returns the element and its postion from the collection.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each_with_index&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;!-- _element_ is the element in the collection and _index_ is its index. --&gt;
+
+&lt;h4 id=&quot;ruby-map&quot;&gt;Ruby &lt;em&gt;map&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;Ruby &lt;em&gt;map&lt;/em&gt; is another iterator used to go through the collection. Whenever you want to alter the values of collection, &lt;em&gt;map&lt;/em&gt; is the good choice.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;code&lt;/em&gt; will get executed for every element in the collection.&lt;br /&gt;
+&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Output for the snippet:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1  
+2  
+3  
+4  
+5  
+=&amp;gt; [nil, nil, nil, nil, nil]   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You might be thinking “What’s the difference between &lt;em&gt;each&lt;/em&gt; and &lt;em&gt;map&lt;/em&gt;, since both do the same thing?”&lt;br /&gt;
+Take a look at the last line of output&lt;br /&gt;
+For &lt;em&gt;each&lt;/em&gt; it is &lt;code class=&quot;highlighter-rouge&quot;&gt;=&amp;gt; [1, 2, 3, 4, 5]&lt;/code&gt; which is the original array.&lt;br /&gt;
+For &lt;em&gt;map&lt;/em&gt; it is &lt;code class=&quot;highlighter-rouge&quot;&gt;=&amp;gt; [nil, nil, nil, nil, nil]&lt;/code&gt; which is the &lt;em&gt;nil&lt;/em&gt; array of same size.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;map&lt;/em&gt; version does not destroy the original collection. But if you want to change the original collection itself, ruby provides you &lt;em&gt;map!&lt;/em&gt; (map bang)version.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map!&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;ruby-collect&quot;&gt;Ruby &lt;em&gt;collect&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;collect&lt;/em&gt; and &lt;em&gt;map&lt;/em&gt;, both work in similar way.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Output for the snippet:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1  
+2  
+3  
+4  
+5  
+=&amp;gt; [nil, nil, nil, nil, nil]   
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;This &lt;em&gt;collect&lt;/em&gt; version does not destroy the original collection. But if you want to change the original collection itself ruby provides you &lt;em&gt;collect!&lt;/em&gt; (collect bang)version. (same as map!)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;collect!&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;ruby-inject&quot;&gt;Ruby &lt;em&gt;inject&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;inject&lt;/em&gt; is used to perform some operation on the collection with some initial value in the memory.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;inject&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here ‘result’ has the initial as first value of the collection and element is the next value. But if you give some initial value to result as &lt;code class=&quot;highlighter-rouge&quot;&gt;collection.inject(initial_value) do ... end&lt;/code&gt; then element will have the first value from the collection.&lt;/p&gt;
+
+&lt;h4 id=&quot;ruby-reduce&quot;&gt;Ruby &lt;em&gt;reduce&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;reduce&lt;/em&gt; and &lt;em&gt;inject&lt;/em&gt; works the same way.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reduce&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;reduce&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;   
+  &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Output for the snippet :&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt; 
+120  
+&lt;/code&gt;&lt;br /&gt;
+The above snippet multiplies all the elements from the &lt;em&gt;array&lt;/em&gt;.&lt;br /&gt;
+If you replace &lt;em&gt;reduce&lt;/em&gt; with &lt;em&gt;inject&lt;/em&gt;, it outputs the same.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 10 Aug 2016 00:00:00 +0530</pubDate>
+				<link>/2016/08/10/ruby-style-iteration.html</link>
+				<guid isPermaLink="true">/2016/08/10/ruby-style-iteration.html</guid>
+			</item>
+		
+			<item>
 				<title>Loops in Ruby</title>
 				<description>&lt;p&gt;Loops are used to execute same block of code again and again for certain number of times or until specific condition is met. Loops in ruby is same as other laguages, but it supports some more functionalities&lt;/p&gt;
 
@@ -438,15 +602,6 @@ He covers many other topics including:&lt;/p&gt;
 				<pubDate>Mon, 13 Jul 2015 00:00:00 +0530</pubDate>
 				<link>/meet/2015/07/13/lets_start.html</link>
 				<guid isPermaLink="true">/meet/2015/07/13/lets_start.html</guid>
-			</item>
-		
-			<item>
-				<title>Hello World!</title>
-				<description>&lt;p&gt;How to write &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt; file?&lt;/p&gt;
-</description>
-				<pubDate>Sat, 11 Jul 2015 00:00:00 +0530</pubDate>
-				<link>/general/setup/2015/07/11/hello-world.html</link>
-				<guid isPermaLink="true">/general/setup/2015/07/11/hello-world.html</guid>
 			</item>
 		
 	</channel>
