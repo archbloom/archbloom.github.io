@@ -45,7 +45,7 @@ x is equal to 2
 ```  
 
 #### Ruby _if_  
-When you dont have the else block what then?. Ruby has the one line solution.  
+When you don't have the else block what then?. Ruby has the one line solution.  
 {% highlight ruby %}    
 code if condition  
 {% endhighlight%}  
