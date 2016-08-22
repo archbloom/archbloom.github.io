@@ -51,7 +51,7 @@ Chaining of conditions is possible with &lt;em&gt;if..elsif..else&lt;/em&gt;.&lt
 &lt;/div&gt;
 
 &lt;h4 id=&quot;ruby-if&quot;&gt;Ruby &lt;em&gt;if&lt;/em&gt;&lt;/h4&gt;
-&lt;p&gt;When you dont have the else block what then?. Ruby has the one line solution.&lt;/p&gt;
+&lt;p&gt;When you don’t have the else block what then?. Ruby has the one line solution.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    
 &lt;span class=&quot;n&quot;&gt;code&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;condition&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
