@@ -5,7 +5,7 @@ tags: [Ruby]
 description: each, map, inject, collect, reduce
 ---  
 Iterators are the methods supported by _collections_. Collections are the objects which store data. In Ruby, _Arrays_ and _Hashes_ are the collections. Iterators are used to traverse collection and get the value one after another.  
-Lets go through some iterators in ruby.  
+Let's go through some iterators in ruby.  
 
 #### Ruby _each_  
 The each iterator returns all the values/elements of collection.
