@@ -1,0 +1,35 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+gems: [jekyll-paginate]
+google_analytics : UA-72064362-1
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Bhushan Authankar
+
+description: Bhushan Vinod Authankar
+author:
+  name: Bhushan Authankar
+  email: bhushanauthankar@gmail.com
+  github: archbloom
+  twitter: archbloom
+  pinterest: archbloom
+  linkedin: bhushanauthankar
+  bio: It will change our Lives
+  email_md5:
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+BASE_PATH:
