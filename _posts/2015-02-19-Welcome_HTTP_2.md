@@ -26,7 +26,7 @@ The resulting protocol is more friendly to the network because fewer TCP connect
 
 Finally, HTTP/2 also enables more efficient processing of messages through use of binary message framing.  
 
-#### Overview of HTTP/2 : 
+#### Overview of HTTP/2 :
 
 
 

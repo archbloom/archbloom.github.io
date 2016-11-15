@@ -3,7 +3,8 @@ layout: post
 title: APK whats in there?
 tags: [Android]
 description: Introduction
----  
+---   
+
 
 Few days ago a friend of mine said, 'So you know android, then tell me how to get information about the application when you have only _apk_?'  
 I thought for sometime and remembered a tool.
@@ -16,7 +17,8 @@ Not so cool, open `AndroidManifest.xml` file. It has data that you need but you 
 ![AndroidManifest.xml](/assets/ico/androidmanifest.png)
 
 
-There is a tool which can help you to do that -   
+There is a tool which can help you to do that -  
+
 ### aapt (Android Asset Packaging Tool)  
 
 
