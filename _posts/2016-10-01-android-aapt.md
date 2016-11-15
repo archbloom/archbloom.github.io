@@ -26,20 +26,24 @@ There is a tool which can help you to do that -
 
 **First thing first, Where is it?**  
 ```
-<path_to_android_sdk>/build-tools/<build_tool_version>/aapt
+<path_to_android_sdk>/build-tools/<build_tool_version>/aapt  
+
 ```
 
 #### What is aapt?  
 It is a tool that can be used to list, add or remove files in an APK.  
 
-#### What are its powers?
+
+#### What are its powers?  
+
 ```
 aapt list - lists content of zip, apk.  
 aapt dump - dumps specific information from a file.  
 aapt package - packages android resources.  
 aapt remove - removes file from zip, apk.  
 aapt add - adds file to zip, apk.  
-aapt crunch - crunches png files.  
+aapt crunch - crunches png files.    
+
 ```   
 
 ##### Now you have some commands -  
