@@ -1,6 +1,7 @@
 ---
 layout: post
 title: APK whats in there?
+categories: [project]
 tags: [Android]
 description: Introduction
 ---   
@@ -19,7 +20,7 @@ Not so cool, open `AndroidManifest.xml` file. It has data that you need but you 
 
 There is a tool which can help you to do that -  
 
-### aapt (Android Asset Packaging Tool)  
+### aapt (Android Asset Packaging Tool)    
 
 
 
@@ -47,7 +48,7 @@ To get basic information of the apk
 ```
 aapt dump badging weather.apk
 ```  
-Output-  
+Output -  
 ```  
 package: name='io.github.archbloom.weather' versionCode='1' versionName='1.0' platformBuildVersionName='6.0-2438415'
 sdkVersion:'21'
