@@ -298,6 +298,7 @@ aapt dump xmltree app-debug.apk
 aapt dump xmlstrings app-debug.apk
 
 ```   
+
 Explore the other commands.   
 
 Reference Link : [elinux.org/Android_aapt](http://elinux.org/Android_aapt)  
