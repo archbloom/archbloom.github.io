@@ -29,13 +29,12 @@ There is a tool which can help you to do that -
 <path_to_android_sdk>/build-tools/<build_tool_version>/aapt  
 
 ```
-
+  
 #### What is aapt?  
 It is a tool that can be used to list, add or remove files in an APK.  
-
-
-#### What are its powers?  
-
+  
+  
+#### What are its powers?    
 ```
 aapt list - lists content of zip, apk.  
 aapt dump - dumps specific information from a file.  
