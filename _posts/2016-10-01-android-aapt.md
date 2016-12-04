@@ -8,7 +8,7 @@ description: Introduction
 
 
 Few days ago a friend of mine said, 'So you know android, then tell me how to get information about the application when you have only _apk_?'  
-I thought for sometime and remembered a tool.
+I thought for sometime and recollected a tool.
 
 It is easy to get information about the application when you have the source code, information like _minSdkVersion_, _tagetSdkVersion_, _permissions_, _configurations_, _xmltree_, but what if someone gives you '_apk_' and asks you to tell same information?.
 
@@ -288,7 +288,7 @@ ___
 
 There are some other commands you can try -  
 ```  
-# List contents of Zip-compatible archive.
+# List contents of zip-compatible archive.
 aapt list -a -v weather.apk
 
 # List compiled xmls in the given assets.
@@ -299,6 +299,6 @@ aapt dump xmlstrings app-debug.apk
 
 ```   
 
-Explore the other commands.   
+You should explore the other commands.   
 
 Reference Link : [elinux.org/Android_aapt](http://elinux.org/Android_aapt)  
