@@ -27,7 +27,7 @@ There is a tool which can help you to do that -
 **First thing first, Where is it?**  
 ```  
 <path_to_android_sdk>/build-tools/<build_tool_version>/aapt  
-```
+```  
 
 #### What is aapt?  
 It is a tool that can be used to list, add or remove files in an APK.  
@@ -48,7 +48,8 @@ ___
 To get basic information of the apk  
 ```
 aapt dump badging weather.apk
-```  
+```    
+
 Output -  
 ```  
 package: name='io.github.archbloom.weather' versionCode='1' versionName='1.0' platformBuildVersionName='6.0-2438415'  
@@ -152,8 +153,8 @@ supports-screens: 'small' 'normal' 'large' 'xlarge'
 supports-any-density: 'true'  
 locales: '--_--' 'ca' 'da' 'fa' 'ja' 'nb' 'de' 'af' 'bg' 'th' 'fi' 'hi' 'vi' 'sk' 'uk' 'el' 'nl' 'pl' 'sl' 'tl' 'am' 'in' 'ko' 'ro' 'ar' 'fr' 'hr' 'sr' 'tr' 'cs' 'es' 'it' 'lt' 'pt' 'hu' 'ru' 'zu' 'lv' 'sv' 'iw' 'sw' 'fr-CA' 'lo-LA' 'en-GB' 'bn-BD' 'et-EE' 'ka-GE' 'ky-KG' 'km-KH' 'zh-HK' 'si-LK' 'mk-MK' 'ur-PK' 'sq-AL' 'hy-AM' 'my-MM' 'zh-CN' 'pa-IN' 'ta-IN' 'te-IN' 'ml-IN' 'en-IN' 'kn-IN' 'mr-IN' 'gu-IN' 'mn-MN' 'ne-NP' 'pt-BR' 'gl-ES' 'eu-ES' 'is-IS' 'es-US' 'pt-PT' 'en-AU' 'zh-TW' 'ms-MY' 'az-AZ' 'kk-KZ' 'uz-UZ'  
 densities: '120' '160' '240' '320' '480' '640' '65534'  
+```    
 
-```  
 ___  
 To get list of permissions in AndroidManifest  
 ```  
@@ -286,7 +287,7 @@ ___
 There are some other commands you can try -  
 ```  
 # List contents of zip-compatible archive.
-aapt list -a -v weather.apk
+aapt list -a -v app-debug.apk
 
 # List compiled xmls in the given assets.
 aapt dump xmltree app-debug.apk
