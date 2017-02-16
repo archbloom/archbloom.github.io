@@ -6,12 +6,6 @@ tags: [Android]
 description: Introduction
 ---   
 
----
-layout: post
-title: Designing ReactJS App for beginners
-tags: ruby rails
----
-
 Few days ago a friend of mine said, 'So you know android, then tell me how to get information about the application when you have only _apk_?'  
 I thought for sometime and recollected a tool.
 
@@ -29,7 +23,9 @@ There is a tool which can help you to do that -
 
 **First thing first, Where is it?**      
 ```      
+
     <path_to_android_sdk>/build-tools/<build_tool_version>/aapt  
+
 ```  
 
 #### What is aapt?  
@@ -300,13 +296,13 @@ There are some other commands you can try -
 
 ```  
     # List contents of zip-compatible archive.
-    aapt list -a -v app-debug.apk
+    aapt list -a -v weather.apk
 
     # List compiled xmls in the given assets.
-    aapt dump xmltree app-debug.apk
+    aapt dump xmltree weather.apk
 
     # List strings of the given compiled xml assets.
-    aapt dump xmlstrings app-debug.apk
+    aapt dump xmlstrings weather.apk
 
 ```   
 
