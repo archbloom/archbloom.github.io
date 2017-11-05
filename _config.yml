@@ -32,5 +32,6 @@ rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 about_path: about.html
+style_css_path: assets/css/style.css
 
 BASE_PATH:
