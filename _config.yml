@@ -8,7 +8,9 @@ markdown: kramdown
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 google_analytics : UA-72064362-1
+permalink: /:title
 
 
 defaults:
