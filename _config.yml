@@ -35,5 +35,6 @@ categories_path: categories.html
 tags_path: tags.html
 about_path: about.html
 style_css_path: assets/css/style.css
+all_posts_path: all_posts.html
 
 BASE_PATH:
