@@ -202,10 +202,20 @@ ul.dropdown-menu>li>a>i.fa {
 	border:1px solid #fffffb;
 	padding:15px;
 }
+
 .info {
     float: left;
     margin: 5px;
     padding: 15px;
     width: 300px;
     height: 300px;
+
+}
+.social {
+  padding-top: 12px;
+  word-spacing: 25px;
+}
+
+.social h4 > a {
+  color: #E74C3C;
 }
