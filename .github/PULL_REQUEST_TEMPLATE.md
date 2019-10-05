@@ -2,3 +2,4 @@
 - [ ] Feature
 - [ ] Bug
 - [ ] Tested
+- [ ] Post
