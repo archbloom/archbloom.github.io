@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dilema in using Time vs DateTime
+title: Dilema in using Time vs DateTime - Ruby
 categories: [tip]
 tags: [ruby]
 description: Time vs DateTime
