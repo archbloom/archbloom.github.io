@@ -2,7 +2,7 @@
 layout: post
 title: The Pentaquark
 categories: [science, technical]
-tags: [lhc]
+tags: [information]
 description: LHC Scientists Discover New Kind of Particle
 ---
 
