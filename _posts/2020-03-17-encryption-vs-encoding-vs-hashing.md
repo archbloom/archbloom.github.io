@@ -2,7 +2,7 @@
 layout: post
 title: Encryption vs Encoding vs Hashing
 categories: [technical]
-tags: [Security, Information]
+tags: [security, information]
 description: Introduction
 ---
 

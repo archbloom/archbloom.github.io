@@ -2,7 +2,7 @@
 layout: post
 title: Welcome HTTP/2
 categories: [technical]
-tags: [info]
+tags: [information]
 description: Why HTTP/2?
 ---
 
