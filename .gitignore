@@ -11,5 +11,3 @@ Gemfile.lock
 pkg/
 *.swp
 *~
-
-all_posts.html
