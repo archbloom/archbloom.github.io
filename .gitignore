@@ -13,3 +13,6 @@ pkg/
 *~
 
 all_posts.html
+
+node_modules
+assets/bundle.js
