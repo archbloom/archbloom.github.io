@@ -33,9 +33,9 @@ author:
 
 rss_path: feed.xml
 categories_path: categories.html
-tags_path: tags.html
-about_path: about.html
+tags_path: tags
+about_path: about
 style_css_path: assets/css/style.css
-all_posts_path: all_posts.html
+all_posts_path: all_posts
 
 BASE_PATH:
