@@ -22,14 +22,14 @@ I have stored everything in _UTC_.
 
 _**to_time**_
 
-```(ruby)
+```ruby
 >> DateTime.parse("04/10/2019 12:04 PM").utc.to_time
 # => 2019–10–04 17:34:00 +0530
 ```
 
 _**to_datetime**_
 
-```(ruby)
+```ruby
 >> DateTime.parse("04/10/2019 12:04 PM").utc.to_datetime
 # => Fri, 04 Oct 2019 12:04:00 +0000
 ```

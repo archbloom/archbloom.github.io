@@ -34,13 +34,13 @@ Save this script as `pre-commit` into your '.git/hooks' folder.
 
 Set this as an executable for the `git` with command
 
-```
+```shell
   $ chmod +x pre-commit
 ```
 
 Now when you stage the files and tries to commit
 
-```
+```shell
   $ git commit -m "Add a sample commit message"
 ```
 
@@ -55,7 +55,7 @@ And it will NOT allow you to commit if your any of file changes have strings fro
 
 _But_ there is a way you can commit the files
 
-```
+```shell
   $ git commit --no-verify -m "I know the risk"
 ```
 
