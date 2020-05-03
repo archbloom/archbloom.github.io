@@ -17,7 +17,7 @@ So, I am writing about one of React hooks `useState`.
 
 To use `useState`, you have to import it from the 'react'.
 
-```
+```javascript
 import React, { useState } from 'react';
 ```
 
@@ -25,7 +25,7 @@ import React, { useState } from 'react';
 
 `useState` is used to have state variables. The `useState` Hook allows you to declare only one state variable (of any type) at a time, like this:
 
-```
+```javascript
 const dataTypes = () => {
   const array_type = useState([1,2]);
   const string_type = useState('start');
@@ -37,7 +37,7 @@ const dataTypes = () => {
 
 `useState` also accepts function for initial value computation if the intial value has heavy computation.
 
-```
+```javascript
 const heavyVariable = useState( () => heavyComputation() )
 ```
 
@@ -45,7 +45,7 @@ const heavyVariable = useState( () => heavyComputation() )
 
 Using `useState` alone won’t solve anything because its argument is used the first time only, not every time the property changes. To tackle that, `useState` returns an array where the first element is the state variable and the second element is a function to update the value of the variable.
 
-```
+```javascript
 const Counter = () => {
    const counterState = useState(0);
    const count = counterState[0]; // Contains 0, actual variable
@@ -55,7 +55,7 @@ const Counter = () => {
 
 The best way to use the `useState` is to use _array destructuring_ it as,
 
-```
+```javascript
 const [count, setCount] = useState(0);
 ```
 
@@ -64,7 +64,7 @@ The second variable `setCount` is function which will be used to update the stat
 **How?**  
 We can create simple counter as `Increase` and `Decrease` the count,
 
-```
+```javascript
 const Counter = () => {
   const [count, setCount] = useState(0);
 
