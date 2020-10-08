@@ -16,7 +16,8 @@ permalink: tags
 
 
 <div class="col-sm-3 col-xs-6">
-    <ul class="nav nav-tabs-vertical">
+  <h3 class='text-center'>Tags</h3>
+  <ul class="nav nav-tabs-vertical">
     {% for item in (0..site.tags.size) %}
       {% unless forloop.last %}
         {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
@@ -25,8 +26,8 @@ permalink: tags
               {{ this_word }}<span class="badge pull-right">{{ site.tags[this_word].size }}</span>
           </a>
         </li>
-    {% endunless %}
-   {% endfor %}
+      {% endunless %}
+    {% endfor %}
    </ul>
 </div>
 <!-- Tab panes -->
