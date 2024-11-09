@@ -89,15 +89,18 @@ article .share .gplus:hover {
 .page-header {
 	color: #e74c3c;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	text-align: center;
 }
 
 article{
 	margin-bottom: 10px;
 }
 
-.article_body{
-	margin-top: 20px;
-	margin-bottom: 20px;
+.article_body {
+	margin: 0 auto;
+	padding: 0 auto;
+	max-width: fit-content;
+	font-size: large;
 }
 
 .post-date {
